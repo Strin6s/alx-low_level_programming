@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +6,7 @@ include "main.h"
  *
  * Return: Always 0.
  */
-void set_string(char **s, char *to)
+void set_string(char **s, char*to)
 {
 	*s = to;
 }
