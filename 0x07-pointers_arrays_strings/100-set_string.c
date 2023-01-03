@@ -6,6 +6,11 @@ include "main.h"
  *
  * Return: Always 0.
  */
+void set_string(char **s, char *to)
+{
+	*s = to;
+}
+
 int main(void)
 {
     char *s0 = "Bob Dylan";
